@@ -9,7 +9,7 @@
     width: 100vw;
     background-color: #f9e2f4;
     background-image: url("https://img.freepik.com/free-vector/bokeh-defocused-background_23-2148497833.jpg");
-    background-size: cover;
+    background-size:cover;
     color: #723881;
     display: flex;
     align-items: center;
@@ -81,4 +81,30 @@ input:hover {
     font-size: 1.5em;
     color: #007bff;
     font-weight: bold;
+}
+
+@media screen and (max-width: 500px){
+    .calculator{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 30rem;
+        width: 20rem;
+    }
+
+
+    .input-row{
+        display: inline;
+        text-align: center;
+        width: 13rem;
+    }
+    #box1, #box2{
+        margin-top: 1rem;
+        /* margin-left: 2rem; */
+        display: inline;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
 }
