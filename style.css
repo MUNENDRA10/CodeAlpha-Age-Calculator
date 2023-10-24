@@ -101,10 +101,5 @@ input:hover {
     }
     #box1, #box2{
         margin-top: 1rem;
-        /* margin-left: 2rem; */
-        display: inline;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
     }
 }
